@@ -1,5 +1,7 @@
+-- manufacture_year and stock values are intentionally repeated for sample seed data
+
 INSERT INTO car (model, brand, manufacture_year, price, stock) VALUES
-                                                                   ('Creta', 'Hyundai', 2023, 1500000, 5),
+                                            s                       ('Creta', 'Hyundai', 2023, 1500000, 5),
                                                                    ('Swift', 'Maruti', 2022, 800000, 10),
                                                                    ('Baleno', 'Maruti', 2021, 900000, 7),
                                                                    ('City', 'Honda', 2023, 1600000, 4),

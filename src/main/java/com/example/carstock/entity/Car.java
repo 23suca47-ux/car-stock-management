@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 
 @Entity
 public class Car {
+    throw new UnsupportedOperationException("Default constructor not supported yet");
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
